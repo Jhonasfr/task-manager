@@ -9,7 +9,7 @@ def crear_tarea():
 
 def listar_tareas():
     if not tareas:
-        print("No hay tareas registradas.")
+        print("No hay tareas registradass.")
         return
     print("\nLista de tareas:")
     for idx, tarea in enumerate(tareas, start=1):
